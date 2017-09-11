@@ -13,6 +13,7 @@
         android:layout_marginLeft="0dp"
         android:layout_marginRight="0dp"
         android:background="?android:attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
