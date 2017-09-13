@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        //set back to home
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -39,6 +41,15 @@ public class MainActivity extends AppCompatActivity {
         }
         else if (id == R.id.item3_id){
             Toast.makeText(getApplicationContext(), "item3 is selected", Toast.LENGTH_SHORT).show();
+        }
+        else if (id == R.id.search_id){
+            Toast.makeText(getApplicationContext(), "search is selected", Toast.LENGTH_SHORT).show();
+        }
+        else if(id == R.id.cart_id){
+            Toast.makeText(getApplicationContext(), "cart is selected", Toast.LENGTH_SHORT).show();
+        }
+        else if(id == android.R.id.home){
+            finish();
         }
         return super.onOptionsItemSelected(item);
     }
