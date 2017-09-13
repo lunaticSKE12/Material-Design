@@ -1,5 +1,6 @@
 package xyz.lunaticske12.materialdesign;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -34,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
         if(id == R.id.item1_id){
             Toast.makeText(getApplicationContext(), "item1 is selected", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), Drawer.class);
+            startActivity(intent);
 
         }
         else if (id == R.id.item2_id){
