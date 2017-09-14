@@ -16,4 +16,8 @@
     <string name="spam">Spam</string>
     <string name="open_drawer">Open navigation drawer</string>
     <string name="close_drawer">Close navigation drawer</string>
+    <string name="username">username:</string>
+    <string name="drawer">Drawer</string>
+    <string name="Text_Filed">Text Field</string>
+    <string name="password">password</string>
 </resources>
