@@ -19,5 +19,5 @@
     <string name="username">username:</string>
     <string name="drawer">Drawer</string>
     <string name="Text_Filed">Text Field</string>
-    <string name="password">password</string>
+    <string name="password">password:</string>
 </resources>
