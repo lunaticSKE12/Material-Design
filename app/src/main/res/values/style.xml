@@ -25,6 +25,11 @@
 
     </style>
 
+    <style name="CharcterOverflow">
+
+        <item name="android:textColor">@color/colorError</item>
+    </style>
+
 
 
 </resources>
