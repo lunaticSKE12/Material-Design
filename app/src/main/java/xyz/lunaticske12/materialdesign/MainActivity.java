@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
         }
         else if (id == R.id.item3_id){
             Toast.makeText(getApplicationContext(), "item3 is selected", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), ButtonActivity.class);
+            startActivity(intent);
         }
         else if (id == R.id.search_id){
             Toast.makeText(getApplicationContext(), "search is selected", Toast.LENGTH_SHORT).show();

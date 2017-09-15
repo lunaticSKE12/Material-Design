@@ -20,4 +20,5 @@
     <string name="drawer">Drawer</string>
     <string name="Text_Filed">Text Field</string>
     <string name="password">password:</string>
+    <string name="flat_button">FLAT Button</string>
 </resources>

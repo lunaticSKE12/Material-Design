@@ -30,6 +30,16 @@
         <item name="android:textColor">@color/colorError</item>
     </style>
 
+    <style name="RaisedButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="backgroundTint">@color/colorRiasedButton</item>
+        <item name="android:textColor">@color/colorRiasedButtonText</item>
+    </style>
+
+    <style name="FlatButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/colorFlatButton</item>
+
+    </style>
+
 
 
 </resources>
