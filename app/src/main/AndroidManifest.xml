@@ -20,7 +20,8 @@
             android:name=".Drawer"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".TextField" />
-        <activity android:name=".ButtonActivity"></activity>
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".SelectionActivity"></activity>
     </application>
 
 </manifest>

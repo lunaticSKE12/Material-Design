@@ -10,8 +10,12 @@
         android:id="@+id/item2_id" />
 
     <item
-        android:title="@string/item_3"
+        android:title="@string/button"
         android:id="@+id/item3_id" />
+
+    <item
+        android:title="Component"
+        android:id="@+id/item4_id" />
 
     <item
         android:title=""

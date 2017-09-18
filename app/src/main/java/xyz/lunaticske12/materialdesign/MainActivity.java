@@ -35,19 +35,19 @@ public class MainActivity extends AppCompatActivity {
 
         if(id == R.id.item1_id){
             Toast.makeText(getApplicationContext(), "item1 is selected", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(getApplicationContext(), Drawer.class);
-            startActivity(intent);
+            newIntent(Drawer.class);
 
         }
         else if (id == R.id.item2_id){
             Toast.makeText(getApplicationContext(), "item2 is selected", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(getApplicationContext(), TextField.class);
-            startActivity(intent);
+            newIntent(TextField.class);
         }
         else if (id == R.id.item3_id){
             Toast.makeText(getApplicationContext(), "item3 is selected", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(getApplicationContext(), ButtonActivity.class);
-            startActivity(intent);
+            newIntent(ButtonActivity.class);
+        }
+        else if (id == R.id.item4_id){
+            newIntent(SelectionActivity.class);
         }
         else if (id == R.id.search_id){
             Toast.makeText(getApplicationContext(), "search is selected", Toast.LENGTH_SHORT).show();
@@ -59,5 +59,11 @@ public class MainActivity extends AppCompatActivity {
             finish();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void newIntent(Class newActivity){
+        Intent intent = new Intent(getApplicationContext(), newActivity);
+        startActivity(intent);
+
     }
 }
