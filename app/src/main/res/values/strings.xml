@@ -23,4 +23,6 @@
     <string name="flat_button">FLAT Button</string>
     <string name="button">Button</string>
     <string name="switch_off_on">Switch OFF/ON</string>
+    <string name="radiobutton1">RadioButton1</string>
+    <string name="radiobutton2">RadioButton2</string>
 </resources>

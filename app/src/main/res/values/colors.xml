@@ -13,5 +13,6 @@
     <color name="colorSwitch">#40C4FF</color>
     <color name="colorEnable">#FF5252</color>
     <color name="colorDisable">#FFAB40</color>
+    <color name="colorRadioButton">#69F0AE</color>
 
 </resources>
